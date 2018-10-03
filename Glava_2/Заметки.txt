@@ -1,0 +1,46 @@
+GET
+Формат:
+GET сценарий?параметры HTTP/1.0
+Переменные окружения: REQUEST_URI; в переменной QUERY_STRING сохраняется значение
+параметры, в переменной REQUEST_METHOD — ключевое слово GET. 
+
+POST 
+Формат:
+POST сценарий?параметры HTTP/1.0
+Переменные окружения: REQUEST_URI; в переменной QUERY_STRING сохраняется значение
+параметры, в переменной REQUEST_METHOD — слово POST. 
+
+Content-Type
+Формат:
+Content-Type: application/x-www-form-urlencoded
+Переменная окружения: CONTENT_TYPE
+
+Host
+Формат:
+Host: имя_хоста
+Переменная окружения: HTTP_HOST. 
+
+User-Agent 
+Формат:
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+Переменная окружения: HTTP_USER_AGENT. 
+
+Referer
+Формат:
+Referer: URL_адрес
+Переменная окружения: HTTP_REFERER. 
+
+Content-length
+Формат:
+Content-length: длина
+Переменная окружения: CONTENT_LENGTH.
+
+Cookie
+Формат:
+Cookie: значения_cookies
+
+Accept
+Формат:
+Accept: text/html, text/plain, image/gif, image/jpeg
+Переменная окружения: HTTP_ACCEPT. 
+Переменная окружения: HTTP_COOKIE. 
